@@ -171,12 +171,12 @@ border-radius: 4px;
 .works article{
   display: flex;
   padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 
 }
 
-.works article + article{
-  border-top: 1px solid var(--light)
+.works article{
+  border-bottom: 1px solid #e0e0e0
 }
 
 .works article > img{
@@ -190,7 +190,7 @@ border-radius: 4px;
 
 .works article .content h3{
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .works article .content .meta{
@@ -216,4 +216,29 @@ border-radius: 4px;
 .works article .content .meta .category{
   font-size: 1.3rem;
   color: #8695a4
+}
+
+.footer{
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .social-icons{
+  list-style: none;
+  display: flex;
+  margin-bottom: 24px;
+  
+}
+
+.footer .social-icons li a{
+  padding: 1rem;
+}
+
+.footer .copyright{
+  font-size: 0.9rem;
 }
